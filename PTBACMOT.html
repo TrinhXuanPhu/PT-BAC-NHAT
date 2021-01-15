@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function ptbacnhat(){
+        let a = prompt('nhap a: ');
+        let b = prompt('nhap b:');
+        if(a==0)
+        {
+            if(b==0)
+            {
+                alert('vo so nghiem')
+            }
+            else
+            {
+                alert('vo nghiem')
+            }
+        }
+        else
+        {
+            x = -b/a;
+            alert('nghiem x=' + x)
+        }
+    }
+</script>
+<body>
+    <button onclick="ptbacnhat()"> click</button>
+</body>
+</html>
